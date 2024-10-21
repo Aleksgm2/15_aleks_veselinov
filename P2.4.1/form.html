@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Formulario Aleks Veselinov</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+
+        .form_button {
+            display: block;
+            margin-top: 15px;
+            background-color: rgb(79, 60, 96);
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+
+            <legend>Personaje</legend>
+            <label for="superheroe">Superheroe Favorito</label>
+            <input list="superheroes" id="superheroe" name="superheroe">
+            <datalist id="superheroes">
+                <option value="Iron Man"></option>
+                <option value="The Hulk"></option>
+
+            </datalist>
+
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color" value="#15acb7">
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono">
+
+        </fieldset>
+
+        <input type="submit">
+
+    </form>
+
+
+
+</body>
+
+
+
+
+</html>
