@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Formularios Avanzados Aleks Veselinov</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+
+        .form_button {
+            display: block;
+            margin-top: 15px;
+            background-color: rgb(79, 60, 96);
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+
+<body>
+
+    <form action="mailto:aleks.veselinov@educa.madrid.org">
+        <fieldset style="width: 400px;">
+
+            <legend>Personaje</legend>
+            <label for="superheroe">Superheroe Favorito</label>
+            <input list="superheroes" id="superheroe" name="superheroe">
+            <datalist id="superheroes">
+                <option value="Iron Man"></option>
+                <option value="The Hulk"></option>
+                <option value="Capitan America"></option>
+
+            </datalist>
+
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color" value="#15acb7">
+
+        </fieldset>
+
+
+        <fieldset style="width: 400px;">
+            <legend>Datos de contacto</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre apellido" placeholder="Nombre Apellido">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono">
+            <label for="fecha">Fecha</label>
+            <input type="date">
+
+        </fieldset>
+
+        <fieldset style="width: 400px;">
+            <legend>Forma de contacto</legend>
+            <form>
+
+                <input type="radio" id="email" name="email"><span>Email</span>
+                <input type="radio" id="telefono" name="email"><span>Telefono</span>
+                <input type="radio" id="carta" name="carta"> <span>Carta</span>
+            </form>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Elige tus asignaturas favoritas</legend>
+            <form>
+
+                <input type="checkbox" id="aplicacionesweb" name="aplicaionesweb"><span>Aplicaciones Web</span>
+
+            </form>
+            <form>
+
+                <input type="checkbox" id="seguridadinformatica" name="seguridadinformatica"><span>Seguridad
+                    Informatica</span>
+            </form>
+        </fieldset>
+
+        <input type="submit">
+
+    </form>
+
+</body>
+
+</head>
+
+</html>
