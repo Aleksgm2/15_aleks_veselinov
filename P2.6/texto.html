@@ -3,11 +3,14 @@
 
 <head>
 
+
     <title>HTML5 Aleks Veselinov</title>
+
+    <link rel="stylesheet" href="style.css">
 
     <style>
         header {
-            background-color: green;
+            background-color: rgb(41, 228, 41);
         }
 
         nav {
@@ -29,15 +32,151 @@
         aside {
             background-color: purple;
         }
+
+        body,
+        html {
+            background-color: #FFF;
+        }
+
+        header {
+            background: #007c07;
+            padding: 20px 30px;
+            max-width: 940px;
+            margin: auto;
+        }
+
+        nav {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            background: #EEE;
+            padding: 3px 10px;
+            font-size: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #444;
+            border-radius: 10px;
+        }
+
+        nav ul li a:hover {
+            background: #FFF;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        #pageContent {
+            max-width: 1000px;
+            margin: auto;
+            border: none;
+        }
+
+        main {
+            float: left;
+            width: 60%;
+        }
+
+        aside {
+            float: right;
+            width: 30%;
+        }
+
+        article {
+            border-bottom: 2px dotted #999;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        article h2 {
+            font-weight: normal;
+            margin-bottom: 12px;
+        }
+
+        article p {}
+
+        main section {}
+
+        footer {
+            background: #AEC6CF;
+            max-width: 1000px;
+            margin: auto;
+            clear: both;
+            text-align: right;
+        }
+
+        footer p {
+            padding: 20px;
+        }
+
+        address {
+            padding: 10px 20px 30px 10px;
+        }
+
+        aside>div {
+            margin: 10px auto;
+            /*background: #AEC6CF;*/
+            min-height: 170px;
+        }
+
+        #logo {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 30px;
+            margin-right: 75px;
+            color: #FFF;
+        }
+
+        #logo img {
+            width: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        body>section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 0px;
+            border-bottom: 1px solid #999;
+            color: #333;
+        }
+
+        @media screen and (max-width: 1000px) {
+            body>section {
+                padding: 30px 20px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            main {
+                float: none;
+                width: 100%;
+            }
+
+            aside {
+                float: none;
+                width: 100%;
+            }
+
+        }
     </style>
+
 </head>
 
 <body>
 
     <header>
-        <img id="logo"
-            src="https://st5.depositphotos.com/14067590/65265/v/600/depositphotos_652654910-stock-video-butterfly-green-screen-abstract-technology.jpg"
-            width="100px" height="80px" />HTML5 Layout
+        <div id="logo">
+            <img id="logo"
+                src="https://st5.depositphotos.com/14067590/65265/v/600/depositphotos_652654910-stock-video-butterfly-green-screen-abstract-technology.jpg"
+                height="50px" /><span>HTML5 Layout</span>
+        </div>
 
         <nav>
             <ul>
@@ -48,63 +187,75 @@
                 <li><a href="menu_1">Menu 3</a></li>
 
             </ul>
+        </nav>
 
     </header>
 
-    </nav>
     <section>
         <strong>Ejemplo de pagina HTML5 con elementos: header, nav, section, main, article, aside, footer,
             address</strong>
     </section>
+    <section id="pageContent">
 
-    <main>
-        <div id="color fondo" style="background-color: pink;">
-        <article>
-            <h2>Articulo 1</h2>
-            <p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix
-                ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu
-                mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre
-                urbanitas intellegam vix in.</p>
-        </article>
+        <main role="main">
+            <article>
+                <h2>Articulo 1</h2>
+                <p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum
+                    vix
+                    ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu
+                    mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre
+                    urbanitas intellegam vix in.</p>
+            </article>
 
-        <article>
-            <h2>Articulo 2</h2>
-            <p>Eum facete intellegat ei, ut mazim melius usu. Has elit simul primis ne, regione minimum id cum. Sea
-                deleniti dissentiet ea. Illud mollis moderatius ut per, at qui ubique populo. Eum ad cibo legimus,
-                vim ei quidam fastidii.</p>
-        </article>
+            <article>
+                <h2>Articulo 2</h2>
+                <p>Eum facete intellegat ei, ut mazim melius usu. Has elit simul primis ne, regione minimum id cum.
+                    Sea
+                    deleniti dissentiet ea. Illud mollis moderatius ut per, at qui ubique populo. Eum ad cibo
+                    legimus,
+                    vim ei quidam fastidii.</p>
+            </article>
 
-        <article>
-            <h2>Articulo 3</h2>
-            <p>Quo debet vivendo ex. Qui ut admodum senserit partiendo. Id adipiscing disputando eam, sea id magna
-                pertinax concludaturque. Ex ignota epicurei quo, his ex doctus delenit fabellas, erat timeam cotidieque
-                sit in. Vel eu soleat voluptatibus, cum cu exerci mediocritatem. Malis legere at per. has brute putant
-                animal et, in consul utamur usu.</p>
-        </article>
+            <article>
+                <h2>Articulo 3</h2>
+                <p>Quo debet vivendo ex. Qui ut admodum senserit partiendo. Id adipiscing disputando eam, sea id
+                    magna
+                    pertinax concludaturque. Ex ignota epicurei quo, his ex doctus delenit fabellas, erat timeam
+                    cotidieque
+                    sit in. Vel eu soleat voluptatibus, cum cu exerci mediocritatem. Malis legere at per. has brute
+                    putant
+                    animal et, in consul utamur usu.</p>
+            </article>
 
-        <article>
+            <article>
 
-            <h2>Articulo 4</h2>
-            <p>Te has amet modo perfecto, te eum mucius conclusionemque, mel te erat deterruisset. Duo ceteros phaedrum
-                id, ornatus postulant in sea. His at autem inani volutpat. Tollit possit in pri, platonem persecuti ad
-                vix, vel nisl albucius gloriatur no.</p>
-        </article>
-        </div>
-        <aside>
-            <div>Barra lateral 1</div>
-            <div>Barra lateral 2</div>
-            <div>Barra lateral 3</div>
-        </aside>
+                <h2>Articulo 4</h2>
+                <p>Te has amet modo perfecto, te eum mucius conclusionemque, mel te erat deterruisset. Duo ceteros
+                    phaedrum
+                    id, ornatus postulant in sea. His at autem inani volutpat. Tollit possit in pri, platonem
+                    persecuti
+                    ad
+                    vix, vel nisl albucius gloriatur no.</p>
 
-        <footer>
+            </article>
+        </main>
+    </section>
+    <aside>
+        <div>Barra lateral 1</div>
+        <div>Barra lateral 2</div>
+        <div>Barra lateral 3</div>
+        <div>Barra lateral 4</div>
+    </aside>
 
-            <p>&copy; By Aleks Veselinov</p>
-            <address>
-               <span>Contacto:</samp><a href="mailto:aleks.veselinov@educa.madrid.org"> Correo</a>
-            </address>
-        </footer>
+    <footer>
 
-    </main>
+        <p>&copy; By Aleks Veselinov</p>
+        <address>
+            <span>Contacto:</samp><a href="mailto:aleks.veselinov@educa.madrid.org"> Correo</a>
+        </address>
+    </footer>
+
+
 
 
 
