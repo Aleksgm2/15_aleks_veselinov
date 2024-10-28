@@ -1,0 +1,33 @@
+h1 {
+
+    color: aqua;
+}
+
+h2 {
+    color: darkmagenta;
+}
+
+span {
+    font-weight: bold;
+
+}
+code {
+    color: blue;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.class {
+    color: grey;
+    text-transform: uppercase;
+}
+
+#codigocss {
+    color: green;
+}
+
+#mihoja {
+    color: red;
+}
