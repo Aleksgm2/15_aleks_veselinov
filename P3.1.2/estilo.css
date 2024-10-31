@@ -1,32 +1,153 @@
+table{
+    text-align: center;
+}
 caption {
     color: white;
-    background-color: brown;
+    background-color: darkmagenta;
     font-size: 20px;
     border-radius: 20px;
     padding: 2%;
     font-family: sans-serif;
-    border: 3px solid black;
+    border: 5px outset;
+    border-color: grey;
 }
-thead {
-    background-color: aquamarine;
+thead>tr:first-child>th:first-child{
+background-color: white;
+border: 0px;
+border-radius: 0px;
 }
-.dias{
-      border: 3px color black;
+
+.th{
+      border: 5px outset;
       background-color: darkcyan;
-      border-radius: 20px;
-      border-color:black;
-      padding: 2%;
+      color: white;
+      border-radius: 10px;
       font-size: 20px;
       font-family: sans-serif
 }
+
+td,th {
+text-align: center;
+width: 10%;
+padding: 2%;
+margin: 2%;
+
+}
+td:nth-child {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 2%;
+}
+th {
+    border-radius: 20px;
+    border: 5px outset;
+    border-color: grey;
+}
+
+
 .horas {
-    background-color: darkgreen;
+    background-color: blue;
     color: white;
     font-size: 20px;
     font-family: sans-serif;
-    border: 3px;
+    border: 5px outset;
+    border-color: grey;
     border-radius: 10px;
-    padding: 2%;
     text-align: center;
 }
+.asignatura1{
+    background-color: yellow;
+    color: black;
+    font-family: sans-serif;
+    border: 5px outset;
+    border-color: chartreuse;
+}
+.asignatura2 {
+    background-color: orangered;
+    color: black;
+    font-family: sans-serif;
+    border: 5px outset;
+    border-color: chartreuse;
+}
+.recreo {
+    background-color: bisque;
+    color: black;
+    font-family: sans-serif;
+    border: 5px outset;
+    border-color: chartreuse;
+    text-align: center;
+}
+.asignatura3{
+    background-color: purple;
+    color: black;
+    font-family: sans-serif;
+    border: 5px outset;
+    border-color: chartreuse;
+}
+.asignatura4{
+    background-color: aqua;
+    color: black;
+    font-family: sans-serif;
+    border: 5px outset;
+    border-color: chartreuse;
+}
+.asignatura5{
+    background-color: springgreen;
+    color: black;
+    font-family: sans-serif;
+    border: 5px outset;
+    border-color: chartreuse;
+}
+.asignatura6{
+    background-color: cadetblue;
+    color: black;
+    font-family: sans-serif;
+    border: 5px outset;
+    border-color: chartreuse;
+}
+.asignatura1:hover{
+    background-color: darkgoldenrod;
+}
+.asignatura2:hover{
+    background-color: brown;
+}
+.asignatura3:hover{
+    background-color: magenta;
+}
+.asignatura4:hover{
+    background-color: blue;
+}
+.asignatura5:hover{
+    background-color: green;
+}
+.asignatura6:hover{
+    background-color: grey;
+}
+.recreo:hover{
+    background-color: burlywood;   
+}
+#aula{
+    visibility: hidden;
+}
+td.asignatura1:hover #aula{
+    visibility: visible;
+    display: block;
+}
 
+#aula2{
+    visibility: hidden;
+}
+td.asignatura1:hover #aula2{
+    visibility: visible;
+    display: block;
+}
+#aula3{
+    visibility: hidden;
+}
+td.asignatura1:hover #aula3{
+    visibility: visible;
+    display: block;
+}
