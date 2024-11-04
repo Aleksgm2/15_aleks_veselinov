@@ -37,7 +37,24 @@
 
 #nav {
     background-color: lightgray;
-    display:flex;
-    flex-direction: row;
+}
+#nav ul {
+    display: flex;
     justify-content: center;
+    list-style: none;
+}
+
+#nav ul li {
+    background-color: orange;
+    padding: 2%;
+    border: 5px solid grey;
+}
+
+#nav ul li:hover {
+    background-color: orangered;
+}
+
+#nav ul li a{
+    color: black;
+    text-decoration: dotted;
 }
