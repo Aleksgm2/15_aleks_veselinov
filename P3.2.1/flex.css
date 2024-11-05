@@ -58,3 +58,7 @@
     color: black;
     text-decoration: dotted;
 }
+
+.caja2:hover{
+    background-color: orangered;
+}
