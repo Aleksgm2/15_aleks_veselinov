@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0, 5;
+}
+
+article {
+    padding: 0 1em;
+}
+
+section {
+    margin: 2%;
+    padding: 1em;
+}
+
+section:not(:last-child) {
+    border-bottom: 2px solid gray;
+}
+
+header {
+    padding: 2%;
+    text-align: center;
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+    background-image: url(./IMG/fondo.jpg);
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+justify-content: center;
+align-items: center;
+margin: 0px;
+padding: 0px;
+}
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 20px;
+    border: 2px solid rgb(4, 103, 103);
+    background-color: darkcyan;
+    padding: 10%;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(49, 67, 67);
+    text-decoration: underline;
+}
+
+header section {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+h3 {
+    color: darkcyan;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: black;
+    padding: 2%;
+}
+
+.columna {
+    display: grid;
+}
+
+.knowledge {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 50% 50%;
+}
+
+#skills ul>li:before {
+    content: "►";
+    padding-right: 20px;
+    color: darkcyan;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+footer {
+    background-color: darkcyan;
+    min-height: 70px;
+    text-align: end;
+    padding: 20px 20px;
+}
