@@ -40,13 +40,14 @@ nav ul li {
 }
 
 nav ul {
-display: flex;
-list-style: none;
-justify-content: center;
-align-items: center;
-margin: 0px;
-padding: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
+
 nav ul li a {
     display: flex;
     justify-content: center;
@@ -54,11 +55,11 @@ nav ul li a {
     margin: 20px;
     border: 2px solid rgb(4, 103, 103);
     background-color: darkcyan;
-    padding: 10%;
+    padding: 10px;
     border-radius: 5px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     background-color: rgb(49, 67, 67);
     text-decoration: underline;
 }
