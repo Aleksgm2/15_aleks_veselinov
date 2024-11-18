@@ -60,10 +60,11 @@ h3 {
 h4{
     color: black;
     padding:2%;
+    font-size: 18px;
 }
 
-.columna {
-    display: grid;
+.languages{
+    grid-column: 1/3;
 }
 
 .knowledge{
