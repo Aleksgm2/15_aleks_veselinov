@@ -5,7 +5,8 @@ function cambiarColor() {
         div.style.backgroundColor = "pink";
     } sinosi(divColor == "pink"){
         div.style.backgroundColor = "blue";
-    }sino{
+    }sinosi{
         div.style.backgroundColor = "black";
     }
 }
+
