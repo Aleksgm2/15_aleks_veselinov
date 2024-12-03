@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #resultado {
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label>Nota priemra evaluacion</label>
+        <input type="number" max="10" id="nota_primera_ev">
+        <label>Nota segunda evaluacion</label>
+        <input type="number" max="10" id="nota_segunda_ev">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Nombre">
+    </form>
+    <button name="calcular" id="calcular" onclick="calcularNotaFinal()">Calcular nota</button>
+    <div id="resultado">
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
