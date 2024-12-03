@@ -1,12 +1,19 @@
 function cambiarColor() {
-    var div = document.getElementById("iddeldiv");
+    var div = document.getElementById('micaja');
     var divColor = div.style.backgroundColor;
-    setInterval(divColor == "black"){
+
+    if (divColor == "black") {
         div.style.backgroundColor = "pink";
-    } sinosi(divColor == "pink"){
+    } else if (divColor == "pink") {
         div.style.backgroundColor = "blue";
-    }sinosi{
+    } else {
         div.style.backgroundColor = "black";
     }
 }
 
+function HOLA() {
+    document.getElementById("micaja").innerHTML += "HOLA"
+}
+function ADIOS() {
+    document.getElementById("micaja").innerHTML += "ADIOS"
+}

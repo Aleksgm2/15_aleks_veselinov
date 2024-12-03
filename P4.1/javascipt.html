@@ -3,23 +3,22 @@
 
 <head>
     <meta charset="UTF8" />
-   
+
     <style>
         #micaja {
-            max-width: 250px;
-            background-color: orange;
+            min-width: 200px;
+            min-height: 200px;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
-    <h1>Prueba</h1>
-    <button id="boton1">Boton 1</button>
-    <button id="botonChangeFontSize">Cambia la letra</button>
-    <div id="micaja">
+    <div id="micaja" onmouseenter="HOLA()" onmouseleave="ADIOS()">
         Esta caja
     </div>
-    <script src="javascript.js"></script>
+    <button onclick="cambiarColor()">Cambia Color</button>
+    <script src="Javascipt.js"></script>
 </body>
 
 </html>
