@@ -9,7 +9,7 @@ function calcularNotaFinal() {
 
     var notaFinal = (parseInt(notaPrimeraEv) + (notaSegundaEv) / 2);
 
-    var nombre = document.getElementById("resultado").value;
+    var nombre = document.getElementById("nombre").value;
 
     console.log("nota media: " + notaFinal)
     if (notaFinal >= 5) {
