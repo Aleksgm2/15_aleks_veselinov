@@ -7,7 +7,7 @@ function calcularNotaFinal() {
 
     var divResultado = document.getElementById("resultado");
 
-    var notaFinal = (parseInt(notaPrimeraEv) + (notaSegundaEv) / 2);
+    var notaFinal = calcularNotaFinal(notaPrimeraEv, notaSegundaEv);//(parseInt(notaPrimeraEv) + (notaSegundaEv) / 2);
 
     var nombre = document.getElementById("nombre").value;
 
