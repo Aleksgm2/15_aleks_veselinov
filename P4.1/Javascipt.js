@@ -12,8 +12,8 @@ function cambiarColor() {
 }
 
 function HOLA() {
-    document.getElementById("micaja").innerHTML += "HOLA"
+    document.getElementById("micaja").innerHTML += "HOLA!!!"
 }
 function ADIOS() {
-    document.getElementById("micaja").innerHTML += "ADIOS"
+    document.getElementById("micaja").innerHTML += "ADIOS!!!"
 }
